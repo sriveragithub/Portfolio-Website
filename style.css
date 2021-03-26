@@ -11,11 +11,11 @@ body {
     background-image: url(./images/45-degree-fabric-light.png);
 }
 
-p {
+p, label {
     font-size: 1.375rem;
 }
 
-li, a {
+li, a, button {
     font-size: 1.25rem;
 }
 
@@ -153,13 +153,13 @@ section {
     margin: 1px auto;
 }
 
-.links {
+.resources {
     grid-area: links;
     justify-self: center;
     align-self: center;
 }
 
-.links a {
+.resources a {
     display: block;
     width: 200px;
     text-align: center;
@@ -168,4 +168,83 @@ section {
     color: #ffe0f0;
     padding: 2px;
     border: 2px #081e2a solid;
+}
+
+#section-contact {
+    width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox */
+    box-sizing: border-box;
+}
+
+#section-contact form label {
+    display: block;
+    text-align: center;
+    margin: 0 auto 1rem auto
+}
+
+#section-contact form label {
+    display: block;
+    text-align: center;
+    margin: 0 auto 1rem auto
+}
+
+#contact-message {
+    vertical-align: top;
+}
+
+#section-contact h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#section-contact form button,
+#section-contact form input {
+    display: block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    text-decoration: none;
+    color: #ffe0f0;
+    padding: 2px;
+    border: 2px #081e2a solid;
+    background-color: #081e2a;
+    font-family: 'Playfair Display', serif;
+    border-radius: 5px;
+}
+
+#section-contact form textarea {
+    display: block;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    text-decoration: none;
+    color: #ffe0f0;
+    padding: 2px;
+    border: 2px #081e2a solid;
+    background-color: #081e2a;
+    font-family: 'Playfair Display', serif;
+    border-radius: 5px;
+}
+
+#section-links {
+    text-align: center;
+}
+
+#section-links h2 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#section-links a {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+    text-decoration: none;
+    color: #ffe0f0;
+    padding: 2px;
+    border: 2px #081e2a solid;
+    margin: 0 auto 1rem auto;
 }
