@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Skyler Rivera - Web Developer</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <div id="header-who">
+                <h1>Skyler Rivera</h1>
+                <h2>Full Stack Web Developer</h2>
+            </div>
+            
+            <div id="header-options">
+                <ul>
+                    <li>About</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                    <li>Links</li>
+                </ul>
+            </div> 
+        </header>
+
+        <section id="section-about">
+            <div id="container-about">
+                <div id="image-about">
+                    <img src="./images/me.jpg" alt="Photo of me smiling in front of a Christmas tree in Berlin">
+                </div>
+                <div id="content-about">
+                    <h2>About Me</h2>
+                    <p>I am a pragmatic developer specialized in creating Full Stack responsive web applications from scratch.</p>
+                    <p>Currently enrolled in Digital Crafts bootcamp in Atlanta, GA to gather the skills necessary to build and scale responsive web applications. My goal is to be an immediate asset to any SaaS or software company that I apply for. I pay attention to details and I am always making an effort to be mindful of the skills I haven't fully developed to identify new learning opportunities. Outside of coding, my passions include social justice, bike riding, and music.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="project" id="section-barrel-hop">
+            <div class="image">
+                <img src="./images/barrel-hop.png" alt="image of barrel-hop app">
+            </div>
+            <div class="content">
+                <p>Built a responsive single-page brewery search website to query and utilize data from 3 APIs to display information. APIs include Open Brewery DB, Open Weather Map, and Unsplash</p>
+                <p>Card columns and search bar are fully responsive using breakpoints, APIs are queried with fetch requests and data is handled accordingly and the brewery cards and links are generated with Javascript</p>
+                <ul>
+                    <li>Javscript</li>
+                    <li>HTML</li>
+                    <li>CSS Grid</li>
+                    <li>AJAX/Fetch</li>
+                    <li>Github</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+            <div class="links">
+                <a href="https://github.com/sriveragithub/dc-front-end-project" target="_blank" rel="noreferrer noopener">SOURCE CODE</a>
+                <iframe src="https://player.vimeo.com/video/529492110" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="project" id="section-diff-section">
+            <div class="image">
+                <img src="./images/weather-app.png" alt="image of barrel-hop app">
+            </div>
+            <div class="content">
+                <p>Built a stylized weather search app utilizing Open Weather Map API to query data, generate cards and set the background to a picture of the city using Unsplash API</p>
+                <p>Card containers are generated using jQuery, APIs are queried with fetch requests corresponding to the zip code entered, error handlers are in place to handle zip codes that don't return data and image is set using a fetch within a fetch.</p>
+                <ul>
+                    <li>jQuery</li>
+                    <li>Javscript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>AJAX/Fetch</li>
+                    <li>Github</li>
+                </ul>
+            </div>
+            <div class="links">
+                <a href="https://github.com/sriveragithub/Weather-App" target="_blank" rel="noreferrer noopener">SOURCE CODE</a>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vsTTXeD-J0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <script src="app.js"></script>
+    </body>
+</html>
