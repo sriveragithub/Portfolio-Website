@@ -28,7 +28,7 @@ header {
     grid-template-areas: 
     'who who list list';
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 header * {
@@ -39,6 +39,7 @@ header #header-who {
     grid-area: who;
     justify-self: center;
     align-self: center;
+    text-align: center;
 }
 
 header #header-options {
@@ -54,6 +55,7 @@ header #header-options {
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    column-gap: 3vw;
 }
 
 #header-options li a {
@@ -61,12 +63,19 @@ header #header-options {
     color: #ffe0f0;
 }
 
+#projects-header {
+    font-size: 4rem;
+    text-align: center;
+    margin: auto auto 1rem;
+    vertical-align: center;
+}
+
 section {
     width: 100%;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox */
     box-sizing: border-box;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     padding: 1rem;
 }
 
@@ -94,7 +103,7 @@ section {
 }
 
 #content-about {
-    padding: 2rem;
+    padding: 0 2rem 2rem;
     text-align: center;
 }
 
