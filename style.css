@@ -51,12 +51,9 @@ header #header-options {
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-#header-options li,
-#content-barrel-hop li {
-    display: inline;
-    margin-right: 5vw;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #header-options li a {
@@ -145,6 +142,7 @@ section {
 
 .content ul {
     display: block;
+    padding: 0 1rem;
 }
 
 
@@ -198,9 +196,16 @@ section {
     vertical-align: top;
 }
 
-#section-contact h2 {
+#section-contact h2,
+#section-links h2 {
     font-size: 4rem;
     text-align: center;
+    margin: 0;
+}
+
+#container-contact,
+#container-links {
+    margin-top: 1rem;
 }
 
 #section-contact form button,
@@ -237,11 +242,6 @@ section {
     text-align: center;
 }
 
-#section-links h2 {
-    font-size: 4rem;
-    text-align: center;
-}
-
 #section-links a {
     display: inline-block;
     width: 200px;
@@ -252,4 +252,85 @@ section {
     padding: 2px;
     border: 2px #081e2a solid;
     margin: 0 auto 1rem auto;
+}
+
+@media screen and (max-width: 1080px) {
+    .project {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+        'image cont'
+        'image cont'
+        'links links';
+    }
+
+    .resources a {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        grid-template-areas: 
+        'who'
+        'list';
+        margin-bottom: 0;
+    }
+
+    #header-who,
+    #header-options {
+        margin-bottom: 1rem;
+    }
+
+    #section-links a {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #container-about {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'image'
+        'cont';
+    }
+
+    #image-about {
+        grid-area: image;
+        padding: 0;
+    }
+
+    #image-about img {
+        width: auto;
+        height: 250px;
+    }
+    
+    #content-about {
+        grid-area: cont;
+        padding: 0 1rem 1rem
+    }
+
+    .project {
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'image'
+        'cont'
+        'links';
+    }
+
+    .resources iframe {
+        height: 45vw;
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #header {
+        padding: .5rem;
+    }
+    
+    #header-options li {
+        margin-right: 6px;
+        
+    }
 }
