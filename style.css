@@ -59,6 +59,11 @@ header #header-options {
     margin-right: 5vw;
 }
 
+#header-options li a {
+    text-decoration: none;
+    color: #ffe0f0;
+}
+
 section {
     width: 100%;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
