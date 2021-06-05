@@ -5,10 +5,10 @@ html {
 body {
   width: 100%;
   margin: 0;
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway', sans-serif;
   background-color: #081e2a;
-  color: #ffe0f0;
-  background-image: url(./images/45-degree-fabric-light.png);
+  color: #f0efef;
+  background-image: url(./images/cartographer.png);
 }
 
 p,
@@ -62,7 +62,7 @@ header #header-options {
 
 #header-options li a {
   text-decoration: none;
-  color: #ffe0f0;
+  color: #f0efef;
 }
 
 #projects-header {
@@ -186,7 +186,7 @@ section {
   text-align: center;
   margin: 0 auto 1rem auto;
   text-decoration: none;
-  color: #ffe0f0;
+  color: #f0efef;
   padding: 2px;
   border: 2px #081e2a solid;
 }
@@ -233,7 +233,7 @@ section {
   text-align: center;
   margin: 0 auto 1rem auto;
   text-decoration: none;
-  color: #ffe0f0;
+  color: #f0efef;
   padding: 2px;
   border: 2px #081e2a solid;
   background-color: #081e2a;
@@ -248,7 +248,7 @@ section {
   text-align: center;
   margin: 0 auto 1rem auto;
   text-decoration: none;
-  color: #ffe0f0;
+  color: #f0efef;
   padding: 2px;
   border: 2px #081e2a solid;
   background-color: #081e2a;
@@ -266,7 +266,7 @@ section {
   text-align: center;
   margin: 0 auto 1rem auto;
   text-decoration: none;
-  color: #ffe0f0;
+  color: #f0efef;
   padding: 2px;
   border: 2px #081e2a solid;
   margin: 0 auto 1rem auto;
